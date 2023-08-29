@@ -1,6 +1,6 @@
 [project]
 name = "euilee-lee"
-version = "0.2.2"
+version = "0.2.3"
 description = "A left-handed pitcher for the KIA Tigers."
 authors = [
     {name = "rim", email = "kylttop01@gmail.com"},
@@ -13,3 +13,8 @@ license = {text = "MIT"}
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+]
