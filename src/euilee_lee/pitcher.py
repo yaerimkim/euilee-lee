@@ -1,19 +1,5 @@
-# euilee-lee
-- A left-handed pitcher for the KIA Tigers.
-
-![image](https://github.com/yaerimkim/euilee-lee/assets/131235627/809b3fea-b575-472b-8993-2f8d75e6b9f4)
-
-# USE
-1. pip install euilee-lee
-
-2. import & call
-``` python
-Python 3.7.16 (default, May 24 2023, 10:40:17) 
-[GCC 9.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> from euilee_lee.pitcher import pic
->>> pic ()
-
+def pic():
+    art = """
                                                   
                          ...                      
                    .~!7JYYYYJ?7!:.                
@@ -43,6 +29,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 ................. .:~7JJJJJJJ?7~:...........:....:
 ....................  .:^!~^:..............::.....
 .........................  .....................:.
-    
->>> 
-```
+    """
+    print(art)
