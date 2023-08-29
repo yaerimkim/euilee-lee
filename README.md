@@ -7,7 +7,7 @@
 1. pip install euilee-lee
 
 2. import & call
-''' python
+``` python
 Python 3.7.16 (default, May 24 2023, 10:40:17) 
 [GCC 9.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
@@ -44,4 +44,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 ....................  .:^!~^:..............::.....
 .........................  .....................:.
     
->>>  '''
+>>>  ```
