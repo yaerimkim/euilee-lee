@@ -1,0 +1,15 @@
+[project]
+name = "euilee-lee"
+version = "0.1.0"
+description = "A left-handed pitcher for the KIA Tigers."
+authors = [
+    {name = "rim", email = "kylttop01@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
